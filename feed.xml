@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>MY 1ST TEST FEED</title>
+    <link>https://google.com</link>
+    <description>MY 1ST TEST FEED</description>
+    <item>
+      <title>HELLO WORLD</title>
+      <link/>
+      <description>GAME IS LIFE</description>
+      <pubDate>2024-05-30</pubDate>
+      <azn>4</azn>
+    </item>
+    <item>
+      <title>KASDŐFJKÁS</title>
+      <link/>
+      <description>KJFSDLAÉKJ FDASKDFJÉLSA IJFPASDIFJASKÉ </description>
+      <pubDate>2024-05-20</pubDate>
+      <azn>3</azn>
+    </item>
+    <item>
+      <title>HI</title>
+      <link/>
+      <description>Egdfgfsdgdfgsdjó</description>
+      <pubDate>2024-05-15</pubDate>
+      <azn>2</azn>
+    </item>
+    <item>
+      <title>Egy elhagyott csirke</title>
+      <link/>
+      <description>Egy kis gondolat mely szép és jó</description>
+      <pubDate>2024-05-10</pubDate>
+      <azn>1</azn>
+    </item>
+    <item>
+      <title>SZERETET ÉS BÉKE</title>
+      <link/>
+      <description>Ez egy jó cikk</description>
+      <pubDate>2024-05-06</pubDate>
+      <azn>8</azn>
+    </item>
+    <item>
+      <title>FELHÁBORÍTÓ!!!!!!!!!!</title>
+      <link/>
+      <description>Egy tarthatatlan állapot a mély vízben</description>
+      <pubDate>2024-05-06</pubDate>
+      <azn>5</azn>
+    </item>
+    <item>
+      <title>FELHÁBORÍTÓ!!!!!!!!!!</title>
+      <link/>
+      <description>Egy tarthatatlan állapot a mély vízben</description>
+      <pubDate>2024-05-06</pubDate>
+      <azn>6</azn>
+    </item>
+    <item>
+      <title>Ez egy teszt a feltöltésre</title>
+      <link/>
+      <description>FELTÖLTÖM A TESZTEM</description>
+      <pubDate>2024-05-06</pubDate>
+      <azn>7</azn>
+    </item>
+  </channel>
+</rss>
