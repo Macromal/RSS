@@ -1,0 +1,60 @@
+CREATE EXTENSION pgcrypto;
+
+-- Database: rss
+
+-- DROP DATABASE IF EXISTS rss;
+
+CREATE DATABASE rss
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Hungarian_Hungary.1250'
+    LC_CTYPE = 'Hungarian_Hungary.1250'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+
+
+-- Table: public.feeds
+
+-- DROP TABLE IF EXISTS public.feeds;
+
+CREATE TABLE IF NOT EXISTS public.feeds
+(
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    egyedi_azn character varying COLLATE pg_catalog."default",
+    leiras text COLLATE pg_catalog."default",
+    szoveg text COLLATE pg_catalog."default",
+    letrehozva date,
+    link text COLLATE pg_catalog."default",
+    szerzo character varying COLLATE pg_catalog."default",
+    cim character varying COLLATE pg_catalog."default",
+    feltoltotte character varying COLLATE pg_catalog."default",
+    CONSTRAINT feeds_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.feeds
+    OWNER to postgres;
+
+
+-- Table: public.users
+
+-- DROP TABLE IF EXISTS public.users;
+
+CREATE TABLE IF NOT EXISTS public.users
+(
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    nev character varying COLLATE pg_catalog."default",
+    fsznev character varying COLLATE pg_catalog."default",
+    jelszo character varying COLLATE pg_catalog."default",
+    fsz boolean,
+    admin boolean,
+    CONSTRAINT users_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.users
+    OWNER to postgres;
